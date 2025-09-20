@@ -6,6 +6,7 @@ import Chip from '@mui/material/Chip';
 import Box from '@mui/material/Box';
 import { getTypeColor } from './TypeColor.jsx';
 
+// Display card for each Pokémon
 function PokeCard({ pokemon }) {
     return (
         <Card sx={{ maxWidth: 345, margin: '1rem auto', width: '100%' }}>

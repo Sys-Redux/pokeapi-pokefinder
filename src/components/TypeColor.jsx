@@ -1,4 +1,5 @@
 export const getTypeColor = (type) => {
+    // This will allow us to get a color based on the Pokémon type
     const colors = {
         normal: '#A8A878',
         fire: '#F08030',

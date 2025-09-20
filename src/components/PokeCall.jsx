@@ -39,11 +39,13 @@ function PokeCall() {
             .catch(() => setError('Pokemon not found'));
     };
 
+    // Clears pokemon list and error message
     const resetPokemon = () => {
         setPokemonList([]);
         setError(null);
     };
 
+    // Allow "Enter" key to trigger search
     const handleKeyPress = (event) => {
         if (event.key === 'Enter') {
             event.preventDefault();
